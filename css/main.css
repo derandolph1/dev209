@@ -1,11 +1,52 @@
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400,700&display=swap');
 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    body {background-color: hsl(212, 45%, 89%); text-align: center; margin:auto; font-family: "Outfit", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; }
-    container { display: flex; flex-direction: column; margin:auto; align-content: center; width: 15%; padding: 15px; border-style: solid 3px; border-radius: 5rch; background-color: hsl(0, 0%, 100%); justify-content: center;}
-    .square { border-radius: 1rch; background-image: "/images/image-qr-code.png";}
-    h3{font-family: "Outfit", sans-serif; font-optical-sizing: auto; padding: 0px 25px; font-weight: 700; font-style: normal; color: hsl(218, 44%, 22%);}
-    img { width: 288px; border-radius: 2rch;}
-    p{color: hsl(216, 15%, 48%); padding: 0px 20px;font-size: 15px;}
-    .outer {height: 80%; padding: auto;}
+    .attribution { 
+        font-size: 11px;
+        text-align: center; }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); }
+    body {
+        background-color: hsl(212, 45%, 89%); 
+        text-align: center; 
+        margin:auto; 
+        font-family: "Outfit", sans-serif; 
+        font-optical-sizing: auto; 
+        font-weight: 400; 
+        font-style: normal; }
+    container { 
+        display: flex; 
+        flex-direction: column; 
+        margin:auto; 
+        width: 15%; 
+        padding: 15px; 
+        border-style: solid 3px; 
+        border-radius: 5rch; 
+        background-color: hsl(0, 0%, 100%); 
+        justify-content: center;}
+    .square { 
+        border-radius: 1rch; 
+        background-image: "/images/image-qr-code.png";}
+    h3 {
+        font-family: "Outfit", sans-serif; 
+        font-optical-sizing: auto; 
+        padding: 0px 25px; 
+        font-weight: 700; 
+        font-style: normal; 
+        color: hsl(218, 44%, 22%);}
+    img { 
+        width: 288px; 
+        border-radius: 2rch;
+        object-fit: cover;}
+    p {
+        color: hsl(216, 15%, 48%); 
+        padding: 0px 20px;
+        font-size: 15px;}
+    .outer {
+        display: flex; 
+        align-items: center; 
+        height: 100vh;}
+    .grid {
+        display:  flex;        
+        grid-template-columns: auto auto auto; 
+        justify-content: center;
+        height: 100vh; }
